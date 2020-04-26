@@ -1,0 +1,25 @@
+body, .mainBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 75px;
+    width: 75px;
+}
+
+.cowStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 6px;
+}
